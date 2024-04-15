@@ -1,5 +1,6 @@
 # verilog
-Addition, subtraction, multiplication and division
+//Addition, subtraction, multiplication and division
+
 module mm(a, b, op, sum,seg_a,seg_b,seg_t,seg_o,seg_r, sign_first,sign_second );
 	input  [3:0] a, b;
 	input [1:0] op;
